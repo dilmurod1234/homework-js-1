@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Uy ishi - 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2 class="title">Log In</h2>
+            <form class="form">
+                <label for="input">
+                    Email
+                    <input type="email" required>
+                </label>
+                <label for="input">
+                    Password
+                    <div class="password-input">
+                        <input class="form-input" id="input" type="password" required>
+                        <img class="password-img" src="./images/eye.png" id="img" onclick="typeFunction()"  alt="Eye icon" width="20" height="20">
+                        <img class="hide-img" src="./images/hide.png" id="img1" onclick="hideFunction()" alt="Hide eye" width="20" height="20">
+                    </div>
+                </label>
+                <button>LOG IN</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
